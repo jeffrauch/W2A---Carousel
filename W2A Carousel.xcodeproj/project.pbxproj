@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		307804581DBAD56300940C76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307804571DBAD56300940C76 /* AppDelegate.swift */; };
+		3078045A1DBAD56300940C76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307804591DBAD56300940C76 /* ViewController.swift */; };
+		3078045D1DBAD56300940C76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3078045B1DBAD56300940C76 /* Main.storyboard */; };
+		3078045F1DBAD56300940C76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3078045E1DBAD56300940C76 /* Assets.xcassets */; };
+		307804621DBAD56300940C76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 307804601DBAD56300940C76 /* LaunchScreen.storyboard */; };
+		3078046D1DBAD56400940C76 /* W2A_CarouselTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3078046C1DBAD56400940C76 /* W2A_CarouselTests.swift */; };
+		307804781DBAD56400940C76 /* W2A_CarouselUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307804771DBAD56400940C76 /* W2A_CarouselUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		307804691DBAD56300940C76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3078044C1DBAD56300940C76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 307804531DBAD56300940C76;
+			remoteInfo = "W2A Carousel";
+		};
+		307804741DBAD56400940C76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3078044C1DBAD56300940C76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 307804531DBAD56300940C76;
+			remoteInfo = "W2A Carousel";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		307804541DBAD56300940C76 /* W2A Carousel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "W2A Carousel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		307804571DBAD56300940C76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		307804591DBAD56300940C76 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3078045C1DBAD56300940C76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3078045E1DBAD56300940C76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		307804611DBAD56300940C76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		307804631DBAD56300940C76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		307804681DBAD56300940C76 /* W2A CarouselTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "W2A CarouselTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3078046C1DBAD56400940C76 /* W2A_CarouselTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = W2A_CarouselTests.swift; sourceTree = "<group>"; };
+		3078046E1DBAD56400940C76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		307804731DBAD56400940C76 /* W2A CarouselUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "W2A CarouselUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		307804771DBAD56400940C76 /* W2A_CarouselUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = W2A_CarouselUITests.swift; sourceTree = "<group>"; };
+		307804791DBAD56400940C76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		307804511DBAD56300940C76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		307804651DBAD56300940C76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		307804701DBAD56400940C76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3078044B1DBAD56300940C76 = {
+			isa = PBXGroup;
+			children = (
+				307804561DBAD56300940C76 /* W2A Carousel */,
+				3078046B1DBAD56300940C76 /* W2A CarouselTests */,
+				307804761DBAD56400940C76 /* W2A CarouselUITests */,
+				307804551DBAD56300940C76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		307804551DBAD56300940C76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				307804541DBAD56300940C76 /* W2A Carousel.app */,
+				307804681DBAD56300940C76 /* W2A CarouselTests.xctest */,
+				307804731DBAD56400940C76 /* W2A CarouselUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		307804561DBAD56300940C76 /* W2A Carousel */ = {
+			isa = PBXGroup;
+			children = (
+				307804571DBAD56300940C76 /* AppDelegate.swift */,
+				307804591DBAD56300940C76 /* ViewController.swift */,
+				3078045B1DBAD56300940C76 /* Main.storyboard */,
+				3078045E1DBAD56300940C76 /* Assets.xcassets */,
+				307804601DBAD56300940C76 /* LaunchScreen.storyboard */,
+				307804631DBAD56300940C76 /* Info.plist */,
+			);
+			path = "W2A Carousel";
+			sourceTree = "<group>";
+		};
+		3078046B1DBAD56300940C76 /* W2A CarouselTests */ = {
+			isa = PBXGroup;
+			children = (
+				3078046C1DBAD56400940C76 /* W2A_CarouselTests.swift */,
+				3078046E1DBAD56400940C76 /* Info.plist */,
+			);
+			path = "W2A CarouselTests";
+			sourceTree = "<group>";
+		};
+		307804761DBAD56400940C76 /* W2A CarouselUITests */ = {
+			isa = PBXGroup;
+			children = (
+				307804771DBAD56400940C76 /* W2A_CarouselUITests.swift */,
+				307804791DBAD56400940C76 /* Info.plist */,
+			);
+			path = "W2A CarouselUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		307804531DBAD56300940C76 /* W2A Carousel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3078047C1DBAD56400940C76 /* Build configuration list for PBXNativeTarget "W2A Carousel" */;
+			buildPhases = (
+				307804501DBAD56300940C76 /* Sources */,
+				307804511DBAD56300940C76 /* Frameworks */,
+				307804521DBAD56300940C76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "W2A Carousel";
+			productName = "W2A Carousel";
+			productReference = 307804541DBAD56300940C76 /* W2A Carousel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		307804671DBAD56300940C76 /* W2A CarouselTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3078047F1DBAD56400940C76 /* Build configuration list for PBXNativeTarget "W2A CarouselTests" */;
+			buildPhases = (
+				307804641DBAD56300940C76 /* Sources */,
+				307804651DBAD56300940C76 /* Frameworks */,
+				307804661DBAD56300940C76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3078046A1DBAD56300940C76 /* PBXTargetDependency */,
+			);
+			name = "W2A CarouselTests";
+			productName = "W2A CarouselTests";
+			productReference = 307804681DBAD56300940C76 /* W2A CarouselTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		307804721DBAD56400940C76 /* W2A CarouselUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 307804821DBAD56400940C76 /* Build configuration list for PBXNativeTarget "W2A CarouselUITests" */;
+			buildPhases = (
+				3078046F1DBAD56400940C76 /* Sources */,
+				307804701DBAD56400940C76 /* Frameworks */,
+				307804711DBAD56400940C76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				307804751DBAD56400940C76 /* PBXTargetDependency */,
+			);
+			name = "W2A CarouselUITests";
+			productName = "W2A CarouselUITests";
+			productReference = 307804731DBAD56400940C76 /* W2A CarouselUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3078044C1DBAD56300940C76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Jeff Rauch";
+				TargetAttributes = {
+					307804531DBAD56300940C76 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					307804671DBAD56300940C76 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 307804531DBAD56300940C76;
+					};
+					307804721DBAD56400940C76 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 307804531DBAD56300940C76;
+					};
+				};
+			};
+			buildConfigurationList = 3078044F1DBAD56300940C76 /* Build configuration list for PBXProject "W2A Carousel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3078044B1DBAD56300940C76;
+			productRefGroup = 307804551DBAD56300940C76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				307804531DBAD56300940C76 /* W2A Carousel */,
+				307804671DBAD56300940C76 /* W2A CarouselTests */,
+				307804721DBAD56400940C76 /* W2A CarouselUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		307804521DBAD56300940C76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				307804621DBAD56300940C76 /* LaunchScreen.storyboard in Resources */,
+				3078045F1DBAD56300940C76 /* Assets.xcassets in Resources */,
+				3078045D1DBAD56300940C76 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		307804661DBAD56300940C76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		307804711DBAD56400940C76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		307804501DBAD56300940C76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3078045A1DBAD56300940C76 /* ViewController.swift in Sources */,
+				307804581DBAD56300940C76 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		307804641DBAD56300940C76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3078046D1DBAD56400940C76 /* W2A_CarouselTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3078046F1DBAD56400940C76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				307804781DBAD56400940C76 /* W2A_CarouselUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3078046A1DBAD56300940C76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 307804531DBAD56300940C76 /* W2A Carousel */;
+			targetProxy = 307804691DBAD56300940C76 /* PBXContainerItemProxy */;
+		};
+		307804751DBAD56400940C76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 307804531DBAD56300940C76 /* W2A Carousel */;
+			targetProxy = 307804741DBAD56400940C76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3078045B1DBAD56300940C76 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3078045C1DBAD56300940C76 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		307804601DBAD56300940C76 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				307804611DBAD56300940C76 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3078047A1DBAD56400940C76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3078047B1DBAD56400940C76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3078047D1DBAD56400940C76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "W2A Carousel/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeffrauch.W2A-Carousel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3078047E1DBAD56400940C76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "W2A Carousel/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeffrauch.W2A-Carousel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		307804801DBAD56400940C76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "W2A CarouselTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeffrauch.W2A-CarouselTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/W2A Carousel.app/W2A Carousel";
+			};
+			name = Debug;
+		};
+		307804811DBAD56400940C76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "W2A CarouselTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeffrauch.W2A-CarouselTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/W2A Carousel.app/W2A Carousel";
+			};
+			name = Release;
+		};
+		307804831DBAD56400940C76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "W2A CarouselUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeffrauch.W2A-CarouselUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "W2A Carousel";
+			};
+			name = Debug;
+		};
+		307804841DBAD56400940C76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "W2A CarouselUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeffrauch.W2A-CarouselUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "W2A Carousel";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3078044F1DBAD56300940C76 /* Build configuration list for PBXProject "W2A Carousel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3078047A1DBAD56400940C76 /* Debug */,
+				3078047B1DBAD56400940C76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3078047C1DBAD56400940C76 /* Build configuration list for PBXNativeTarget "W2A Carousel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3078047D1DBAD56400940C76 /* Debug */,
+				3078047E1DBAD56400940C76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3078047F1DBAD56400940C76 /* Build configuration list for PBXNativeTarget "W2A CarouselTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				307804801DBAD56400940C76 /* Debug */,
+				307804811DBAD56400940C76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		307804821DBAD56400940C76 /* Build configuration list for PBXNativeTarget "W2A CarouselUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				307804831DBAD56400940C76 /* Debug */,
+				307804841DBAD56400940C76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3078044C1DBAD56300940C76 /* Project object */;
+}
